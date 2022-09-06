@@ -1,0 +1,37 @@
+{
+  "name": "npm-user-login",
+  "version": "0.1.0",
+  "description": "Login to npm using node script or terminal command",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src -e ts --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LZHD/npm-user-login.git"
+  },
+  "keywords": [
+    "npm",
+    "login",
+    "script",
+    "ci",
+    "command"
+  ],
+  "author": "LZHD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LZHD/npm-user-login/issues"
+  },
+  "homepage": "https://github.com/LZHD/npm-user-login#readme",
+  "dependencies": {
+    "npm-registry-fetch": "^13.3.1",
+    "typescript": "^4.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.27",
+    "@types/npm-registry-fetch": "^8.0.4",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1"
+  }
+}
